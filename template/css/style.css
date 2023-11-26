@@ -7849,7 +7849,7 @@ img {
 .donate-box{display: flex;justify-content: space-evenly;flex-wrap: wrap;}
 .donate-box .donate-card{width: calc(50% - 40px);margin: 20px;padding: 20px;border: 3px solid #f23b43;border-radius: 10px;}
 .donate-box .donate-card:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
-.donate-box .donate-card h3{padding:0;margin:0;margin-bottom: 20px;font-weight: bold;font-size: 18px;line-height: 30px;}
+.donate-box .donate-card h3{padding:0;margin:0;margin-bottom: 20px;font-weight: bold;font-size: 18px;line-height: 30px; text-align: center;}
 .donate-box .donate-card p {margin: 10px 0!important;font-size: 16px;}
 .donate-box .donate-card p:last-child {margin-bottom:0!important;}
 @media (max-width: 699px) {
