@@ -13,7 +13,7 @@ const addressGroom = "Hạnh Phúc, Đồng Minh, Vĩnh Bảo, Hải Phòng"; //
 const timeWeddingGroom = "09:00 AM 12/03/2023"; //example: 09:00 AM 12/03/2023
 const mapGroom =
   "https://www.google.com/maps/place/X%C3%B3m+Quy%E1%BA%BFt+Th%E1%BA%AFng/@20.6450934,106.4647051,20.08z/data=!4m14!1m7!3m6!1s0x3135f5b337fbbc1f:0x5bbc5ef0c114255d!2zWMOzbSBRdXnhur90IFRo4bqvbmc!8m2!3d20.645296!4d106.4646736!16s%2Fg%2F11p5n7j95t!3m5!1s0x3135f5b337fbbc1f:0x5bbc5ef0c114255d!8m2!3d20.645296!4d106.4646736!16s%2Fg%2F11p5n7j95t"; //example: Quyết Thắng, Đồng Minh, Vĩnh Bảo, Hải Phòng
-const bankAccoutGroom = "BUI NGOC KHANH";
+const bankAccoutGroom = "Nguyen Tuan Khang";
 const bankNameGroom = "Techcombank";
 const bankNumberGroom = "68 03 06 2000";
 
@@ -26,7 +26,7 @@ const fbBride = "https://www.facebook.com/Buikhanhi2k"; //example: https://www.f
 const timeWeddingBride = "08:30 AM 12/03/2023"; //example: 09:00 AM 12/03/2023
 const addressBride = "Quyết Thắng, Đồng Minh, Vĩnh Bảo, Hải Phòng"; //example: Quyết Thắng, Đồng Minh, Vĩnh Bảo, Hải Phòng
 const mapBride = "https://goo.gl/maps/BVG9H29pCrRohjtM8"; //example: https://goo.gl/maps/BVG9H29pCrRohjtM8
-const bankAccoutBride = "BUI NGOC KHANH";
+const bankAccoutBride = "Bui Phuong hang";
 const bankNameBride = "Techcombank";
 const bankNumberBride = "68 03 06 2000";
 
@@ -109,11 +109,11 @@ const objReplace = [
   },
   {
     text: "tên tài khoản chú rể",
-    textReplace: bankAccoutGroom,
+    textReplace: bankAccoutGroom.toUpperCase(),
   },
   {
     text: "tên tài khoản cô dâu",
-    textReplace: bankAccoutBride,
+    textReplace: bankAccoutBride.toUpperCase(),
   },
   {
     text: "số tài khoản chú rể",
